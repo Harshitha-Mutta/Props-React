@@ -1,0 +1,43 @@
+.good{
+  background:#f1f5f8 ;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align:center;
+}
+
+.goodlist{
+  width:90vw;
+  max-width:1170px;
+  margin:5rem auto;
+  display:grid;
+  gap:2rem;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+h1{
+ text-align: center;
+ margin-top: 4rem;
+ text-transform:capitalize;
+}
+ 
+@media screen and (min-width:768px) {
+  .goodlist{
+    grid-template-columns:repeat(2,1fr);
+    align-items:start;
+  }
+}
+.good h2{
+  margin-top:3rem;
+}
+
+.good h4{
+  margin-top:1rem;
+}
+.good img{
+  height:200px;
+  object-fit:cover;
+}
